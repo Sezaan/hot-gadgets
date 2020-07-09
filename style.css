@@ -18,10 +18,43 @@ body {
     border: none;
 }
 
-h2, p, button {
+h1, p, button {
     margin-bottom: 25px;
 }
 
 p {
     color: grey;
 }
+
+.card-text, .card-title {
+    text-align: center;
+}
+
+.card {
+    border: 1px;
+    box-shadow: 0 0 10px rgb(236, 236, 236);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    border: none;
+    background-color: white;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.price {
+    text-align: center;
+}
+
+#bottom {
+    position:absolute;
+    bottom:0;
+ }
+
+ #center {
+     text-align: center;
+ }
